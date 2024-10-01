@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.main-content {
+    background-color: #d51e1e; 
+    flex: 1; 
+    padding: 20px; 
+    height: 38.7rem;
+    
+}
+
+ 
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    overflow: hidden; 
+}
+ 
+.main-content {
+    background-color: #ffffff; 
+    flex: 1; 
+    padding: 20px;
+    overflow: auto;
+}
+ 
+.table-container {
+    width: 60%;
+    overflow-x: auto;
+    /* position: absolute; */
+    margin: 0 auto;
+    padding: 20px;
+    /* top: 20%; */
+    /* left: 25%; */
+}
+ 
+.tickets-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+ 
+.tickets-table th, .tickets-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+} 
+
+.table td button {
+background-color: #2222E0;
+
+}
+
+

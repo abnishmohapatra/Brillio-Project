@@ -1,0 +1,288 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.agent-navbar, .left-side-div, .right-side-div {
+    background: #DFDFF6;
+}
+
+.agent-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+
+.agent-navbar-left, .agent-navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.agent-logo {
+    height: 50px;
+    margin-right: 9%;
+    margin-left: 15%;
+}
+
+.agent-greeting, .agent-name {
+    color: black;
+}
+
+.agent-greeting {
+    font-size: 2rem;
+}
+
+.agent-profile-image {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.agent-name {
+    font-size: 1rem;
+    margin-right: 20px;
+}
+
+.agent-action-button, .ticket-submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2222E0;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.agent-action-button:hover, .ticket-submit-button:hover {
+    background-color: #777;
+}
+
+.agent-main-component, .main-content {
+    background-color: #d51e1e;
+    flex: 1;
+    padding: 20px;
+    height: 38.7rem;
+}
+
+.agent-page-container, .page-container, .help-background {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.agent-main-content, .main-content {
+    background-color: lightblue;
+    flex: 1;
+    padding: 20px;
+}
+
+.agent-table-container, .table-container, .ticket-mainbox, .solved-tickets-mainbox {
+    width: 60%;
+    overflow-x: auto;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    background-color: lavender;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    position: absolute;
+    width: 70%;
+    left: 19%;
+}
+
+.agent-tickets-table, .tickets-table, .solved-tickets-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.agent-tickets-table th, .agent-tickets-table td, .tickets-table th, .tickets-table td, .solved-tickets-table th, .solved-tickets-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.agent-tickets-table th, .tickets-table th, .solved-tickets-table th {
+    background-color: #f2f2f2;
+}
+
+.agent-tickets-table tr:nth-child(even), .tickets-table tr:nth-child(even), .solved-tickets-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.agent-tickets-table tr:hover, .tickets-table tr:hover, .solved-tickets-table tr:hover {
+    background-color: #ddd;
+}
+
+.dash-body {
+    display: flex;
+}
+
+.left-side-div {
+    height: 100vh;
+    width: 13%;
+}
+
+.right-side-div {
+    height: 23vh;
+    width: 69%;
+    background-color: #9f9ff0;
+}
+
+.open-tickets-nav, .closed-tickets-nav, .dashboard-nav {
+    margin-right: 9%;
+    cursor: pointer;
+}
+
+.dashboard-nav {
+    margin-right: 21%;
+}
+
+.right-side-div {
+    position: absolute;
+    left: 22.15%;
+    right: 7.99%;
+    top: 17.77%;
+    bottom: 61.72%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.tiy, .sam, .asa, .chala, .ana {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.asa, .chala {
+    position: absolute;
+    background-color: #5252ce;
+    width: 20rem;
+    height: 10rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.asa {
+    left: 28rem;
+    top: 25rem;
+}
+
+.chala {
+    right: 15rem;
+    top: 25rem;
+}
+
+.help-background {
+    background-color: #BFBFFF;
+}
+
+.help-main-body {
+    flex: 1;
+    width: 100%;
+    justify-content: center;
+}
+
+.help-upperhead, .help-box-heading {
+    color: #333;
+    text-align: center;
+}
+
+.help-upperhead {
+    font-size: x-large;
+    margin-top: 2rem;
+}
+
+.help-white-box {
+    background-color: white;
+    border-radius: 8px;
+    padding: 2rem;
+    width: 50%;
+    height: 60vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+}
+
+.help-ticket-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.help-form-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+.help-form-group, .ticket-form-group, .solved-tickets-form-group {
+    margin-bottom: 1.5rem;
+}
+
+.help-form-group label, .ticket-form-group label, .solved-tickets-form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.help-text-box, .help-text-boxx, .ticket-form-control, .solved-tickets-form-control {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.help-text-boxx {
+    height: 100px;
+}
+
+.help-submittt-button, .ticket-submit-button {
+    padding: 0.75rem 2rem;
+    background-color: #5353FF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 200px;
+    align-self: flex-start;
+}
+
+.help-ag-image {
+    width: 300px;
+    position: absolute;
+    bottom: -11%;
+}
+
+.heading, .ticket-heading, .solved-tickets-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-container, .ticket-form-container, .solved-tickets-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.form-group, .ticket-form-group, .solved-tickets-form-group {
+    margin-bottom: 15px;
+    width: 50%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ticket-error-message {
+    color: red;
+    text-align: center;
+}
+
+.ticket-success-message {
+    color: green;
+    text-align: center;
+}

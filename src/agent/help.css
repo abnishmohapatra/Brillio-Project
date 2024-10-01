@@ -1,0 +1,178 @@
+/* Basic styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.help-background {
+    background-color: #BFBFFF;
+    height: 89vh; /* Ensures the background covers the full viewport height */
+    display: flex;
+    flex-direction: column;
+}
+
+.help-main-body {
+    flex: 1;
+    width: 100%;
+    justify-content: center;
+}
+
+.helpbody {
+    overflow-y: hidden!important;
+}
+
+.help-upperhead {
+    color: #333; /* Ensures the text is readable on a purple background */
+    text-align: center;
+    font-size: x-large;
+    margin-top: 2rem; /* Adjust margin as needed */
+}
+
+.help-white-box {
+    background-color: white;
+    border-radius: 8px;
+    padding: 2rem;
+    width: 50%;
+    height: 60vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto; /* Centers the box and adds margin at the top */
+}
+
+.help-box-heading {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.help-ticket-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.help-form-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+.help-form-group {
+    margin-bottom: 1.5rem;
+}
+
+.help-form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.help-text-box,
+.help-text-boxx {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.help-text-boxx {
+    height: 100px; /* Adjust as needed for your design */
+}
+
+.help-submittt-button {
+    padding: 0.75rem 2rem;
+    background-color: #2222E0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    align-self: flex-start; /* Aligns the button to the start */
+}
+
+.help-ag-image {
+    width: 300px;
+    position: absolute;
+    bottom: -11%;
+}
+
+.help-message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.help-success {
+    color: green;
+    background-color: #e6ffe6;
+    border: 1px solid green;
+}
+
+.help-error {
+    color: red;
+    background-color: #ffe6e6;
+    border: 1px solid red;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .help-white-box {
+        width: 90%;
+        height: auto; /* Allow the box to adjust its height based on content */
+        padding: 1rem;
+    }
+
+    .help-upperhead {
+        font-size: large;
+        margin-top: 1rem;
+    }
+
+    .help-ticket-form {
+        flex-direction: column;
+    }
+
+    .help-form-left {
+        margin-right: 0;
+    }
+
+    .help-submittt-button {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .help-ag-image {
+        position: static;
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .help-upperhead {
+        font-size: medium;
+        margin-top: 1rem;
+    }
+
+    .help-white-box {
+        width: 95%;
+        padding: 1rem;
+    }
+
+    .help-text-box,
+    .help-text-boxx {
+        font-size: 0.875rem;
+        padding: 0.5rem;
+    }
+
+    .help-submittt-button {
+        font-size: 0.875rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .help-box-heading {
+        font-size: large;
+        margin-bottom: 1rem;
+    }
+}

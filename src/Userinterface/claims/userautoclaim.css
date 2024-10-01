@@ -1,0 +1,96 @@
+.auto-claim-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.auto-claim-text {
+    position: absolute;
+    top: 85px;
+    text-align: center;
+    width: 100%;
+}
+.autoclaimbody{
+    background-color: #bfbfff;
+    width: 50;
+    height: 50vh;
+}
+.autobutton{
+    width: 80%;
+    text-align: center;
+}
+#auto-claim-title {
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.72px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#auto-claim-msg {
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 0.16px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.auto-claim-formlevel1 {
+    display: flex;
+    column-gap: 10%;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.auto-claim-formlevel0 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30%;
+}
+
+.auto-claim-formlevel2 {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 20%;
+    row-gap: 15%;
+}
+
+.auto-claim-form {
+    position: absolute;
+    width: 68%;
+    top: 190px;
+    left: 16%;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    background: #ffffff;
+    box-shadow: 10px 4px 4px 0px #9898cf;
+    padding-bottom: 2%;
+}
+
+.auto-claim-textfield {
+    border-width: 0px 0px 2px 0px;
+    border-color: #8484fc;
+    margin-top: 5%;
+    height: 20px;
+}
+
+button {
+    font-family: Plus Jakarta Sans;
+    text-align: left;
+    color: #ffffff;
+    background: #2222e0;
+    border-radius: 5px;
+    padding-block: 8px;
+}
+
+label {
+    color: #848383;
+}

@@ -1,0 +1,140 @@
+.dash-body {
+    display: flex;
+}
+ 
+.left-side-div {
+    height: 100vh;
+    width: 13%;
+    background-color: #DFDFF6;
+}
+ 
+.right-side-div {
+    height: 23vh;
+    width: 69%;
+    background-color: #9f9ff0;
+}
+ 
+.open-tickets-nav {
+    margin-right: 9%;
+}
+ 
+.closed-tickets-nav {
+    margin-right: -2%;
+}
+ 
+.dashboard-nav {
+    margin-right: 21%;
+}
+ 
+/* Group */
+.right-side-div {
+    position: absolute;
+    left: 22.15%;
+    right: 7.99%;
+    top: 17.77%;
+    bottom: 61.72%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+ 
+
+.welcomecard{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    background: #DFDFF6;
+    height: 25vh;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px #DFDFF6;
+}
+.asa {
+    position: absolute;
+    left: 35rem;
+    top: 25rem;
+    background-color: #5252ce;
+    width: 13rem;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 5px 2px 2px #5252ce;
+    height: 7rem;
+    font-family: 'Plus Jakarta Sans';
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); 
+}
+
+ 
+.chala {
+    position: absolute;
+    right: 15rem;
+    top: 25rem;
+    background-color: #5252ce;
+    width: 13rem;
+    height: 7rem;
+    left: 60%;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+}
+ 
+
+
+.dashboard-nav,
+.open-tickets-nav,
+.closed-tickets-nav {
+    margin-left: 0.5rem; 
+    padding: 0.5rem;
+    cursor: pointer; /* Ensure cursor changes to pointer on hover */
+    transition: background-color 0.5s ease; /* Smooth transition for background color change */
+}
+
+.dashboard-nav:hover,
+.open-tickets-nav:hover,
+.closed-tickets-nav:hover {
+    background-color: #ffffff; /* Desired hover background color */
+}
+h6 {
+    font-size: 1.5rem; /* Adjust the font size for the numbers */
+    bottom: auto;
+    color: white;
+}
+
+/* Specific adjustments for heading and paragraph tags */
+.tiy,
+.sam,
+.ana {
+    font-size: 1rem; /* Adjust the font size for the headings */
+    margin-bottom: 1rem; /* Example: Adding margin for spacing */
+}
+
+/* Common styles for the cards */
+.card {
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+/* Specific styles for each card */
+
+
+/* Zoom effect and shadow on hover */
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Optional: styles for the text inside the cards */
+.card h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.card p {
+    font-size: 18px;
+    color: #333;
+}

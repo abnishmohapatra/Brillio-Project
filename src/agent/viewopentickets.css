@@ -1,0 +1,95 @@
+
+.ticket-mainbox {
+    background-color: lavender;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    height: 60%;
+    left: 20%;
+}
+ 
+.ticket-heading {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+}
+.ticket-form-group label{
+    text-align: center;
+}
+.ticket-subheading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #777;
+}
+ 
+.ticket-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.ticket-form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+ 
+.ticket-form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    width: 100%;
+}
+ 
+.ticket-form-control {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+ 
+.ticket-submit-button {
+    padding: 15px 30px;
+    background-color: #2222E0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+ 
+}
+ 
+.ticket-submit-button:hover {
+    background-color: #4646bd;
+}
+ 
+.ticket-error-message  {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+ 
+.ticket-success-message {
+    color: rgb(8, 8, 8);
+}
+ 
+.ticket-image {
+    margin-top: 100px;
+    position: relative;
+    left: 39%;
+    height: 40vh;
+    bottom: 30%;
+ 
+ 
+}
+ 
